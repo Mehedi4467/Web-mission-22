@@ -37,7 +37,7 @@ p{
 }
 
 .margin-top{
-    padding-top: 60px;
+    padding-top: 80px;
 }
 /* this css apply all body and reclass end */
 
@@ -126,9 +126,7 @@ p{
 /* developer area css end here */
 
 /* Community area css start here */
-.community-area{
-    padding-bottom: 30px;
-}
+
 .community-item{
     padding-left: 102px;
 }
@@ -140,9 +138,8 @@ p{
 #community-bg{
     background-image: url(../images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-position: 100% 121%;
-    background-size: 30%;
-    margin-bottom: 50px;
+    background-position: 92% 100%;
+    background-size: 12%;
 }
 
 /* Community area css end here */
@@ -199,14 +196,11 @@ p{
 /* blog area css end here */
 
 
-
-
-
-
-
-
 /* footer area css start here */
 
+footer{
+    margin-top: 100px;
+}
 .footer-area{
     background-color: #0B0D17;
     text-align: center;
