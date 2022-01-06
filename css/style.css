@@ -11,6 +11,7 @@ body{
 h1{
     font-size: 50px;
     margin: 0;
+    color: #3C3E41;
     
 }
 
@@ -64,6 +65,7 @@ p{
 /* mission and vission section css start here */
 .mission-vission-section h1{
     text-align: center;
+    color: #3C3E41;
 }
 .mission_vission{
     width: 30%;
@@ -105,7 +107,7 @@ p{
 }
 .developer-limite-area h2{
     font-size: 35px;
-    color: #333333;
+    color: #3C3E41;
 }
 .developer-item{
     width: 45%;
@@ -124,12 +126,15 @@ p{
 /* developer area css end here */
 
 /* Community area css start here */
+.community-area{
+    padding-bottom: 30px;
+}
 .community-item{
     padding-left: 102px;
 }
 .community-item h2{
     font-size: 35px;
-    color: #333333
+    color: #3C3E41
 }
 
 #community-bg{
@@ -137,11 +142,61 @@ p{
     background-repeat: no-repeat;
     background-position: 100% 121%;
     background-size: 30%;
+    margin-bottom: 50px;
 }
 
 /* Community area css end here */
    
+/* blog area css start here */
+.blog-area p{
+    font-size: 15px;
+    text-align: center;
+}
+.blog-area h1{
+    text-align: center;
+    color: #3C3E41;
+}
+.blog-item{
+    width: 30%;
+    
+    margin: 40px 40px;
+    border-radius: 10px;
+    box-shadow:2px 2px 20px 10px #E3E9ED;
 
+}
+.blog-img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-item img{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    
+    transition-duration: .5s;
+    overflow: hidden;
+}
+
+.blog-item:hover img{
+    width: 220px;
+    height: 220px;
+    
+}
+
+.blog-content h2{
+  text-align: center;
+  padding: 0;
+  margin-bottom: 10;
+    
+}
+.blog-content a{
+    text-decoration: none;
+    color: #6C63FF;
+}
+/* blog area css end here */
 
 
 
